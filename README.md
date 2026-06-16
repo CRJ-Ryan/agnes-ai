@@ -32,7 +32,8 @@ agnes-ai/
 ### 环境变量
 
 ```bash
-export AGNES_API_KEY="sk-FvetkuZyrc3103s707K9KIEzeROVj7ftdv7gfzPlPxl010Fb"
+# 从 CC Switch 获取你的 API Key
+export AGNES_API_KEY="sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
 ### 文生图
