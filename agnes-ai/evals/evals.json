@@ -1,0 +1,35 @@
+{
+  "skill_name": "agnes-ai",
+  "evals": [
+    {
+      "id": 0,
+      "prompt": "帮我画一张日落湖景的图，要那种宁静写实的风格",
+      "expected_output": "应该使用文生图功能，选择 realistic 风格，1024x1024 默认尺寸，prompt 应包含具体场景细节",
+      "files": []
+    },
+    {
+      "id": 1,
+      "prompt": "生成一个赛博朋克风格的东京夜景，动漫风，竖版比例",
+      "expected_output": "应使用文生图，选择 anime 风格，1024x1536 竖版尺寸，prompt 包含赛博朋克和东京元素",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "我想用这张图 https://example.com/cat.png 作为参考，帮我改成穿宇航服的样子",
+      "expected_output": "应识别为图生图模式，使用 image_url 参数，prompt 应指导模型将猫改为穿宇航服",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "帮我做个logo",
+      "expected_output": "应主动引导细化需求：什么品牌、什么风格、什么颜色、什么形状？不应直接盲生成",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "画一个可爱的卡通猫咪，来4张不同的",
+      "expected_output": "应使用 cartoon 风格，n=4 生成多张，prompt 包含可爱猫咪元素",
+      "files": []
+    }
+  ]
+}
